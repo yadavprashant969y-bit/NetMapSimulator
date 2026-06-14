@@ -1,0 +1,42 @@
+
+=== NetMap Simulator Menu ===
+1. Router DB (Add/Get)
+2. Firewall (Apply/Undo)
+3. Traffic Line (Enqueue/Process)
+4. Address Lookup (Add/Find)
+5. Usage Sorter (Add Link/Bottlenecks)
+6. Network Map (Add Conn/Route)
+7. Bandwidth Allocator (Request/Alloc)
+8. Run Automated Test
+0. Exit
+Choice: 
+--- Running Full Automated Test ---
+[Router Database] Added config for Router ID: RTR-Core
+[Router Database] Found config for Router ID: RTR-Core (IP: 10.0.0.1)
+[Firewall] Applied rule: R1 (DENY 1.1.1.1 -> 2.2.2.2)
+[Firewall] Undid rule: R1
+[Traffic Line] Enqueued packet: P1
+[Traffic Line] Processed packet: P1 from 10.0.0.5 to 8.8.8.8
+[Address Lookup] Added device: 192.168.1.5
+[Address Lookup] Device list sorted for fast lookup.
+[Address Lookup] Found device: 192.168.1.5 (MAC: MAC-AB)
+[Usage Sorter] Added link: L1 (Util: 90%)
+
+[Usage Sorter] Network Links Sorted by Utilization:
+  - Link L1: 90% [BOTTLENECK WARNING]
+[Network Map] Added connection: HQ <--> Branch (Latency: 35ms)
+[Fastest Route] Shortest path from HQ to Branch: HQ -> Branch (Total Latency: 35ms)
+[Bandwidth Allocator] Task T1 requested 500Mbps (Priority: 10)
+[Bandwidth Allocator] Allocated 500Mbps to Task: T1 - Vid (Priority: 10)
+
+=== NetMap Simulator Menu ===
+1. Router DB (Add/Get)
+2. Firewall (Apply/Undo)
+3. Traffic Line (Enqueue/Process)
+4. Address Lookup (Add/Find)
+5. Usage Sorter (Add Link/Bottlenecks)
+6. Network Map (Add Conn/Route)
+7. Bandwidth Allocator (Request/Alloc)
+8. Run Automated Test
+0. Exit
+Choice: 
